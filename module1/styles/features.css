@@ -1,0 +1,236 @@
+.features {
+	max-height: 1025px;
+	margin-bottom: 150px;
+}
+
+.features__header {
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 130%;
+	color: #212353;
+	margin: 0 0 10px 0;
+    text-align: center;
+	margin-bottom: 50px;
+	transition: transform 1s;
+}
+
+.features__header:hover {
+	transform: scale(2);
+}
+
+.features__p {
+	text-align: center;
+	margin: 0 0 100px 0;
+}
+
+.features__blocks {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	flex: 0 1 50%;
+}
+
+.features__card {
+	min-height: 360px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex: 0 1 50%;
+	transition: transform 1s;
+}
+
+.features__card:hover {
+	transform: scale(1.25) translateX(30px);
+}
+
+.features__card a {
+	text-decoration: none;
+	color: #212353;
+}
+
+.features__img1 {
+	max-width: 232px;
+	max-height: 211px;
+}
+
+.features__img2 {
+	max-width: 241px;
+	max-height: 185px;
+}
+
+.features__img3 {
+	max-width: 226px;
+	max-height: 167px;
+}
+
+.features__img4 {
+	max-width: 235px;
+	max-height: 205px;
+}
+
+.features-margin {
+	margin-top: 50px;
+}
+
+.features__background {
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 70% 100%;
+}
+
+.features__background1 {
+	background-image: url(../imgs/features/bg1.svg);
+}
+
+.features__background2 {
+	background-image: url(../imgs/features/bg2.svg);
+}
+
+.features__background3 {
+	background-image: url(../imgs/features/bg3.svg);
+}
+
+.features__background4 {
+	background-image: url(../imgs/features/bg4.svg);
+}
+
+.features__content {
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+}
+
+.features__title {
+	color: #212353;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 130%;
+	margin-bottom: 20px;
+}
+
+.features__text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #4B5D68;
+	max-width: 220px;
+	margin-bottom: 0;
+}
+
+.features__btn {
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 160%;
+	letter-spacing: 0.005em;
+	color: #212353;
+	margin-top: 20px;
+}
+
+.features__btn-margin {
+	margin-left: 20px;
+}
+
+@media (max-width: 1250px) {
+    .features {
+		max-height: none;
+		margin-bottom: 100px;
+	}
+	.features__p {
+		font-size: 25px;
+	}
+	.features__card {
+		margin-top: 35px;
+		flex: 0 1 100%;
+		transition: none;
+	}
+	.features__background {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 50% 100%;
+	}
+    .features__background1 {
+        background-image: url(../imgs/features/bg1.svg);
+    }
+    .features__background2 {
+        background-image: url(../imgs/features/bg2.svg);
+    }
+    .features__background3 {
+        background-image: url(../imgs/features/bg3.svg);
+    }
+    .features__background4 {
+        background-image: url(../imgs/features/bg4.svg);
+    }
+	.features__text {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 992px) {
+    .features__card {
+		margin-top: 20px;
+		transition: none;
+	}
+	.features__background {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 70% 100%;
+	}
+    .features__background1 {
+        background-image: url(../imgs/features/bg1.svg);
+    }
+    
+    .features__background2 {
+        background-image: url(../imgs/features/bg2.svg);
+    }
+    
+    .features__background3 {
+        background-image: url(../imgs/features/bg3.svg);
+    }
+    
+    .features__background4 {
+        background-image: url(../imgs/features/bg4.svg);
+    }
+}
+
+@media (max-width: 677px) {
+    .features__card {
+		margin-top: 20px;
+		transition: none;
+	}
+	.features__background {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 105%;
+	}
+    .features__background1 {
+        background-image: url(../imgs/features/bg1.svg);
+    }
+    
+    .features__background2 {
+        background-image: url(../imgs/features/bg2.svg);
+    }
+    
+    .features__background3 {
+        background-image: url(../imgs/features/bg3.svg);
+    }
+    
+    .features__background4 {
+        background-image: url(../imgs/features/bg4.svg);
+    }
+	.features__img1 {
+		display: none;
+	}
+	.features__img2 {
+		display: none;
+	}
+	.features__img3 {
+		display: none;
+	}
+	.features__img4 {
+		display: none;
+	}
+	.features__content {
+		margin-right: 0;
+	}
+}
